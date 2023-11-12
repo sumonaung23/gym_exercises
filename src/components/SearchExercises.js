@@ -63,12 +63,12 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
                         fontSize:{ lg: '20px', xs: '12px'},
                         height: '56px', position: 'absolute', right: '0'
                     }}
-                    onclick={handleSearch}>
+                    onClick={handleSearch}>
                     Search
                 </Button>
             </Box>
 
-            <Box sx={{ position: 'relative', width: '100%', p: '20px'}}>
+            <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
                 <HorizontalScrollbar data={bodyParts} setBodyPart={setBodyPart} bodyPart={bodyPart} />
             </Box>
         </Stack>
