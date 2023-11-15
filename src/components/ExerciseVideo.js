@@ -14,7 +14,7 @@ const ExerciseVideo = ({ exerciseVideos, name }) => {
                 flexDirection: {lg: 'row'},
                 gap: {lg: '30px', xs: '0px'}
             }}>
-                {exerciseVideos?.slice(0, 10)?.map((item, index) => (
+                {exerciseVideos?.slice(0, 9)?.map((item, index) => (
                     <a key={index} className='exercise-video' href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
                     target='_blank'
                     rel='noreferrer'>
